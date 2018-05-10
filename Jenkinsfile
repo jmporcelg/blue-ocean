@@ -1,7 +1,7 @@
 pipeline {
   agent {
-    docker {
-      image 'debian:latest'
+    node {
+      label 'master'
     }
 
   }
